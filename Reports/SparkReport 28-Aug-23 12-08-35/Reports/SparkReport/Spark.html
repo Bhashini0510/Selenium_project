@@ -1,0 +1,4835 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Aug 28, 2023 12:16:12 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@linkedList</a><a class="dropdown-item" href="#">@failure</a><a class="dropdown-item" href="#">@practiceQuestionsValidation</a><a class="dropdown-item" href="#">@success</a><a class="dropdown-item" href="#">@home</a><a class="dropdown-item" href="#">@register</a><a class="dropdown-item" href="#">@login</a><a class="dropdown-item" href="#">@array</a><a class="dropdown-item" href="#">@graph</a><a class="dropdown-item" href="#">@queue</a><a class="dropdown-item" href="#">@pythoncodeValidation</a><a class="dropdown-item" href="#">@ds</a><a class="dropdown-item" href="#">@stack</a><a class="dropdown-item" href="#">@tree</a><a class="dropdown-item" href="#">@navigation</a><a class="dropdown-item" href="#">@pageLaunch</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Register User to dsportal app</p>
+            <p class="text-sm">
+              <span>12:16:13 PM</span> / <span>00:00:00:233</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Register User to dsportal app</h5>
+<span class='badge badge-success'>08.28.2023 12:16:13 PM</span>
+<span class='badge badge-danger'>08.28.2023 12:16:13 PM</span>
+<span class='badge badge-default'>00:00:00:233</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"> I want to use this template for my feature file</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Successful registration</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="BEFORE">
+                <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Register.user_is_in_register_page()">
+                <span>Given User is in Register page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Register.user_enters_credentials_and_click_on_Register_button(io.cucumber.datatable.DataTable)">
+                <span>When User enters credentials and click on Register button</span>
+      <div><table class='markup-table table '><tr><td></td><td></td></tr><tr><td></td><td></td></tr></table>
+      </div>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Register.navigates_to_home_page()">
+                <span>Then Navigates to home page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Register.user_able_to_register_successfully()">
+                <span>And User able to register successfully</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="10"><span class="badge log fail-bg mr-2">Fail</span>User is not able to register into the dsportalapp</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="BEFORE">
+                <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step fail-bg" title="BEFORE">
+                <span>defenitions.Register.beforeScenarioFailure()</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
+	at pageObject.RegisterPage.navigateToRegisterPage(RegisterPage.java:220)
+	at defenitions.Register.beforeScenarioFailure(Register.java:68)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Register.user_fills_credentials_and_click_on_register_button(io.cucumber.datatable.DataTable)">
+                <span>When User fills credentials and click on Register button</span>
+      <div><table class='markup-table table '><tr><td>username</td><td>password</td><td>confirm</td><td>message</td></tr><tr><td></td><td>Password12</td><td>Password12.</td><td>Please fill out this field.</td></tr><tr><td>tester2</td><td></td><td>Password12.</td><td>Please fill out this field.</td></tr><tr><td>tester2</td><td>Password12</td><td></td><td>Please fill out this field.</td></tr><tr><td>tester</td><td>Password12</td><td>Password12.</td><td>Invalid User Name</td></tr><tr><td>tester2</td><td>Password</td><td>Password</td><td>Invalid password</td></tr><tr><td>tester2</td><td>Password12</td><td>Password</td><td>password_mismatch:The two password fields didn’t match.</td></tr><tr><td>nump1234</td><td>Password12</td><td>Welcome1</td><td>User already registered</td></tr><tr><td>tester2</td><td>Pass</td><td>Pass</td><td>password should have more characters</td></tr><tr><td>tester2</td><td>1234</td><td>1234</td><td>password cannot be only numbers</td></tr><tr><td>tester2</td><td>tester2</td><td>tester2</td><td>password cannot be same as user name</td></tr><tr><td>tester2</td><td>Welcome1</td><td>Welcome1</td><td>password cannot be a common password</td></tr></table>
+      </div>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Register.user_is_not_able_to_register_and_alert_is_displayed()">
+                <span>Then User is not able to register and alert is displayed</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="17"><span class="badge log fail-bg mr-2">Fail</span>Navigate to login page from Register page</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="BEFORE">
+                <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Register.user_is_in_register_page()">
+                <span>Given User is in Register page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Register.user_click_login_button()">
+                <span>When User click Login button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Register.user_navigates_to_login_page()">
+                <span>Then User navigates to login page</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="24"><span class="badge log fail-bg mr-2">Fail</span>Signout validation</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="BEFORE">
+                <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Register.loginSuccess(java.lang.String,java.lang.String)">
+                <span>Given User is in home page with valid "User62345" and "P@ssword21"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Register.user_clicks_the_signout_button()">
+                <span>When User clicks the Signout button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Register.able_to_signout_and_land_in_home_page_with_signin_link()">
+                <span>Then Able to Signout and land in home page with Signin link</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="31"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login feature validation</p>
+            <p class="text-sm">
+              <span>12:16:13 PM</span> / <span>00:00:00:067</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Login feature validation</h5>
+<span class='badge badge-success'>08.28.2023 12:16:13 PM</span>
+<span class='badge badge-danger'>08.28.2023 12:16:13 PM</span>
+<span class='badge badge-default'>00:00:00:067</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=31</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="32"><span class="badge log fail-bg mr-2">Fail</span>Register link validation from Sign in page</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="BEFORE">
+                <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Login.user_is_in_sign_in_page()">
+                <span>Given User is in Sign in page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Login.user_clicks_on_register_link()">
+                <span>When User clicks on Register link</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Login.user_navigates_to_register_page()">
+                <span>Then User navigates to Register page</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="39"><span class="badge log fail-bg mr-2">Fail</span>User enters invalid username</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="40"><span class="badge log fail-bg mr-2">Fail</span>User enters invalid username</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>defenitions.Register.beforeScenarioFailure()</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
+	at pageObject.RegisterPage.navigateToRegisterPage(RegisterPage.java:220)
+	at defenitions.Register.beforeScenarioFailure(Register.java:68)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given User is in Sign in page</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User user enters invalid username par123 and password Welcome1</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Error message is displayed as Invalid username and Password</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="48"><span class="badge log fail-bg mr-2">Fail</span>User enters invalid username from excel</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="49"><span class="badge log fail-bg mr-2">Fail</span>User enters invalid username from excel</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given User is in Sign in page</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User user enters invalid username and password from  sheet "Login" and rownumber 0</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Error message is displayed as Invalid username and Password</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="56"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Home Page feature validation</p>
+            <p class="text-sm">
+              <span>12:16:13 PM</span> / <span>00:00:00:350</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Home Page feature validation</h5>
+<span class='badge badge-success'>08.28.2023 12:16:13 PM</span>
+<span class='badge badge-danger'>08.28.2023 12:16:14 PM</span>
+<span class='badge badge-default'>00:00:00:350</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=56</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="57"><span class="badge log fail-bg mr-2">Fail</span>Home Page URL</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="BEFORE">
+                <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Home.the_user_lands_on_ds_algo_portal()">
+                <span>Given The user lands on DS Algo Portal</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Home.user_enters_the_home_page_using_get_started_button()">
+                <span>When User enters the home page using Get Started button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Home.user_is_on_home_page_url()">
+                <span>Then User is on Home Page URL</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="64"><span class="badge log fail-bg mr-2">Fail</span>Content in Home Page</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="BEFORE">
+                <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Home.title_of_the_page_numpy_ninja_is_displayed()">
+                <span>Then Title of the page NumpyNinja is displayed</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Home.data_structures_is_selected_default_in_dropdown()">
+                <span>And Data Structures is selected default in dropdown</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Home.register_with_signin_is_available()">
+                <span>And Register with Signin is available</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="71"><span class="badge log fail-bg mr-2">Fail</span>Content in Home Page dropdown</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="BEFORE">
+                <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Home.user_opens_the_dropdown_in_homepage()">
+                <span>And User opens the dropdown in homepage</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Home.options_data_structures_arrays_linked_list_stack_queue_tree_and_graph_are_displayed()">
+                <span>Then Options Data Structures, Arrays, Linked List, Stack, Queue, Tree and Graph are displayed</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="77"><span class="badge log fail-bg mr-2">Fail</span>Drop down selection without login</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="78"><span class="badge log fail-bg mr-2">Fail</span>Drop down selection without login</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User select an "Arrays" in dropdown without login</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then User gets warning message You are not logged in</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="84"><span class="badge log fail-bg mr-2">Fail</span>Drop down selection without login</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User select an "Linked List" in dropdown without login</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then User gets warning message You are not logged in</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="90"><span class="badge log fail-bg mr-2">Fail</span>Drop down selection without login</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User select an "Stack" in dropdown without login</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then User gets warning message You are not logged in</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="96"><span class="badge log fail-bg mr-2">Fail</span>Drop down selection without login</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User select an "Queue" in dropdown without login</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then User gets warning message You are not logged in</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="102"><span class="badge log fail-bg mr-2">Fail</span>Drop down selection without login</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User select an "Tree" in dropdown without login</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then User gets warning message You are not logged in</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="108"><span class="badge log fail-bg mr-2">Fail</span>Drop down selection without login</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User select an "Graph" in dropdown without login</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then User gets warning message You are not logged in</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="114"><span class="badge log fail-bg mr-2">Fail</span>Get started button clicked without login</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="115"><span class="badge log fail-bg mr-2">Fail</span>Get started button clicked without login</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User clicks on Get Started button in any "Data Structures-Introduction"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then User gets warning message You are not logged in</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="121"><span class="badge log fail-bg mr-2">Fail</span>Get started button clicked without login</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User clicks on Get Started button in any "Array"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then User gets warning message You are not logged in</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="127"><span class="badge log fail-bg mr-2">Fail</span>Get started button clicked without login</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User clicks on Get Started button in any "Linked List"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then User gets warning message You are not logged in</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="133"><span class="badge log fail-bg mr-2">Fail</span>Get started button clicked without login</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User clicks on Get Started button in any "Stack"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then User gets warning message You are not logged in</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="139"><span class="badge log fail-bg mr-2">Fail</span>Get started button clicked without login</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User clicks on Get Started button in any "Queue"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then User gets warning message You are not logged in</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="145"><span class="badge log fail-bg mr-2">Fail</span>Get started button clicked without login</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User clicks on Get Started button in any "Tree"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then User gets warning message You are not logged in</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="151"><span class="badge log fail-bg mr-2">Fail</span>Get started button clicked without login</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User clicks on Get Started button in any "Graph"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then User gets warning message You are not logged in</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="157"><span class="badge log fail-bg mr-2">Fail</span>Register Page Navigation</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="BEFORE">
+                <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Home.user_clicks_register()">
+                <span>When User clicks Register</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Home.user_lands_on_register_page()">
+                <span>Then User lands on Register Page</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="163"><span class="badge log fail-bg mr-2">Fail</span>Sign in Page Navigation</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="BEFORE">
+                <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Home.the_user_lands_on_ds_algo_portal()">
+                <span>Given The user lands on DS Algo Portal</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Home.user_clicks_sign_in()">
+                <span>When User clicks Sign in</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Home.user_lands_on_login_page()">
+                <span>Then User lands on Login Page</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="170"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Array Page</p>
+            <p class="text-sm">
+              <span>12:16:14 PM</span> / <span>00:00:00:053</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Array Page</h5>
+<span class='badge badge-success'>08.28.2023 12:16:14 PM</span>
+<span class='badge badge-danger'>08.28.2023 12:16:14 PM</span>
+<span class='badge badge-default'>00:00:00:053</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=170</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"> I want to use this template for my feature file</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="171"><span class="badge log fail-bg mr-2">Fail</span>User is able to navigate to Array using dropdown option</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="172"><span class="badge log fail-bg mr-2">Fail</span>User is able to navigate to Array using dropdown option</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User click on Array from the dropdown</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Array page is displayed</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And heaader Array is displayed</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Verify topics covered is displayed with "Arrays in Python,Arrays Using List,Basic Operations in Lists,Applications of Array" links</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="180"><span class="badge log fail-bg mr-2">Fail</span>User is able to navigate to Array using Get Strated option</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="BEFORE">
+                <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Array.user_click_on_get_started_button_for_array()">
+                <span>When User click on Get Started button for Array</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Array.array_page_is_displayed()">
+                <span>Then Array page is displayed</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Array.heaader_array_is_displayed()">
+                <span>And heaader Array is displayed</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="187"><span class="badge log fail-bg mr-2">Fail</span>User is able to try code in Array page</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="188"><span class="badge log fail-bg mr-2">Fail</span>User is able to try code in Array page</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given click on the list of "Arrays in Python,Arrays Using List,Basic Operations in Lists,Applications of Array" from the excel sheet "Arrays"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User clicks on try here button and enters code from the excel sheet row in the try editor page and clicks on Run</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then The code is executed and the output from the excel row is displayed on the page</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="195"><span class="badge log fail-bg mr-2">Fail</span>User is able to practice questions in Array page</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="BEFORE">
+                <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.LinkedList.user_is_on_linked_list_page_and_click_on_the_link_from_the_excel_sheet(java.lang.String,java.lang.String)">
+                <span>Given click on the list of "links" from the excel sheet "Practice"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Array.user_clicks_on_practice_questions_link_on_the_left_of_page()">
+                <span>When User clicks on Practice Questions link on the left of page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Array.user_is_able_to_run_and_submit_practice_codes()">
+                <span>Then User is able to run and submit practice codes</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="202"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Linked List Page</p>
+            <p class="text-sm">
+              <span>12:16:14 PM</span> / <span>00:00:00:042</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Linked List Page</h5>
+<span class='badge badge-success'>08.28.2023 12:16:14 PM</span>
+<span class='badge badge-danger'>08.28.2023 12:16:14 PM</span>
+<span class='badge badge-default'>00:00:00:042</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=202</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"> I want to use this template for my feature file</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="203"><span class="badge log fail-bg mr-2">Fail</span>User is able to navigate to Datastructure using Get Strated option</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="204"><span class="badge log fail-bg mr-2">Fail</span>User is able to navigate to Datastructure using Get Strated option</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User click on Get Started button for Datastructure</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Data Structures-Introduction page is displayed</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And heaader Data Structures-Introduction is displayed</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Verify topics covered is displayed with "Time Complexity" links</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="212"><span class="badge log fail-bg mr-2">Fail</span>User is able to try code in Datastructure page</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="213"><span class="badge log fail-bg mr-2">Fail</span>User is able to try code in Datastructure page</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given click on the list of "Time Complexity" from the excel sheet "Datastructure"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User clicks on try here button and enters code from the excel sheet row in the try editor page and clicks on Run</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then The code is executed and the output from the excel row is displayed on the page</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="220"><span class="badge log fail-bg mr-2">Fail</span>User is able to practice questions in Linked list page</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="BEFORE">
+                <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.LinkedList.user_is_on_page_and_click_on_the_topic(java.lang.String,java.lang.String)">
+                <span>Given User is on "Datastructure" page and click on the "Time-Complexity" topic</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.LinkedList.user_clicks_on_practice_questions_link_on_the_left_of_page(java.lang.String)">
+                <span>When User clicks on Practice Questions link on the left of "Datastructure" page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.LinkedList.practice_questions_page_is_displayed()">
+                <span>Then Practice Questions page is displayed</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="227"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Graph Page</p>
+            <p class="text-sm">
+              <span>12:16:14 PM</span> / <span>00:00:00:050</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Graph Page</h5>
+<span class='badge badge-success'>08.28.2023 12:16:14 PM</span>
+<span class='badge badge-danger'>08.28.2023 12:16:14 PM</span>
+<span class='badge badge-default'>00:00:00:050</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=227</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"> I want to use this template for my feature file</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="228"><span class="badge log fail-bg mr-2">Fail</span>User is able to navigate to Graph using dropdown option</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="229"><span class="badge log fail-bg mr-2">Fail</span>User is able to navigate to Graph using dropdown option</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User click on Graph from the dropdown</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Graph page is displayed</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And heaader Graph is displayed</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Verify topics covered is displayed with "Graph,Graph Representations" links</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="237"><span class="badge log fail-bg mr-2">Fail</span>User is able to navigate to Graph using Get Strated option</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="BEFORE">
+                <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Graph.user_click_on_get_started_button_for_graph()">
+                <span>When User click on Get Started button for Graph</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Graph.graph_page_is_displayed()">
+                <span>Then Graph page is displayed</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Graph.heaader_graph_is_displayed()">
+                <span>And heaader Graph is displayed</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="244"><span class="badge log fail-bg mr-2">Fail</span>User is able to try code in Graph page</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="245"><span class="badge log fail-bg mr-2">Fail</span>User is able to try code in Graph page</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given click on the list of "Graph,Graph Representations" from the excel sheet "Graph"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User clicks on try here button and enters code from the excel sheet row in the try editor page and clicks on Run</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then The code is executed and the output from the excel row is displayed on the page</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="252"><span class="badge log fail-bg mr-2">Fail</span>User is able to practice questions in Graph page</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="BEFORE">
+                <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.LinkedList.user_is_on_page_and_click_on_the_topic(java.lang.String,java.lang.String)">
+                <span>Given User is on "Graph" page and click on the "graph" topic</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.LinkedList.user_clicks_on_practice_questions_link_on_the_left_of_page(java.lang.String)">
+                <span>When User clicks on Practice Questions link on the left of "Graph" page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.LinkedList.practice_questions_page_is_displayed()">
+                <span>Then Practice Questions page is displayed</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="259"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Linked List Page</p>
+            <p class="text-sm">
+              <span>12:16:14 PM</span> / <span>00:00:00:043</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Linked List Page</h5>
+<span class='badge badge-success'>08.28.2023 12:16:14 PM</span>
+<span class='badge badge-danger'>08.28.2023 12:16:14 PM</span>
+<span class='badge badge-default'>00:00:00:043</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=259</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"> I want to use this template for my feature file</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="260"><span class="badge log fail-bg mr-2">Fail</span>User is able to navigate to Linked List using dropdown option</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="261"><span class="badge log fail-bg mr-2">Fail</span>User is able to navigate to Linked List using dropdown option</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User click on Linked List from the dropdown</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then LinkedList page is displayed</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And heaader Linked List is displayed</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Verify topics covered is displayed with "Introduction,Creating Linked LIst,Types of Linked List,Implement Linked List in Python,Traversal,Insertion,Deletion" links</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="269"><span class="badge log fail-bg mr-2">Fail</span>User is able to navigate to Linked List using Get Strated option</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="BEFORE">
+                <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.LinkedList.user_click_on_get_started_button_for_linked_list()">
+                <span>When User click on Get Started button for Linked List</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.LinkedList.linked_list_page_is_displayed()">
+                <span>Then LinkedList page is displayed</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.LinkedList.heaader_linked_list_is_displayed()">
+                <span>And heaader Linked List is displayed</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="276"><span class="badge log fail-bg mr-2">Fail</span>User is able to try code in Linked list page</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="277"><span class="badge log fail-bg mr-2">Fail</span>User is able to try code in Linked list page</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given click on the list of "Introduction,Creating Linked LIst,Types of Linked List,Implement Linked List in Python,Traversal,Insertion,Deletion" from the excel sheet "LinkedList"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User clicks on try here button and enters code from the excel sheet row in the try editor page and clicks on Run</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then The code is executed and the output from the excel row is displayed on the page</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="284"><span class="badge log fail-bg mr-2">Fail</span>User is able to practice questions in Linked list page</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="BEFORE">
+                <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.LinkedList.user_is_on_page_and_click_on_the_topic(java.lang.String,java.lang.String)">
+                <span>Given User is on "Linked List" page and click on the "introduction" topic</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.LinkedList.user_clicks_on_practice_questions_link_on_the_left_of_page(java.lang.String)">
+                <span>When User clicks on Practice Questions link on the left of "Linked List" page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.LinkedList.practice_questions_page_is_displayed()">
+                <span>Then Practice Questions page is displayed</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="291"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Queue Page</p>
+            <p class="text-sm">
+              <span>12:16:14 PM</span> / <span>00:00:00:067</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Queue Page</h5>
+<span class='badge badge-success'>08.28.2023 12:16:14 PM</span>
+<span class='badge badge-danger'>08.28.2023 12:16:14 PM</span>
+<span class='badge badge-default'>00:00:00:067</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=291</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"> I want to use this template for my feature file</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="292"><span class="badge log fail-bg mr-2">Fail</span>User is able to navigate to Queue using dropdown option</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="293"><span class="badge log fail-bg mr-2">Fail</span>User is able to navigate to Queue using dropdown option</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User click on Queue from the dropdown</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Queue page is displayed</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And heaader Queue is displayed</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Verify topics covered is displayed with "Implementation of Queue in Python,Implementation using collections.deque,Implementation using array,Queue Operations" links</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="301"><span class="badge log fail-bg mr-2">Fail</span>User is able to navigate to Queue using Get Strated option</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="BEFORE">
+                <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Queue.user_click_on_get_started_button_for_queue()">
+                <span>When User click on Get Started button for Queue</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Queue.queue_page_is_displayed()">
+                <span>Then Queue page is displayed</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Queue.heaader_queue_is_displayed()">
+                <span>And heaader Queue is displayed</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="308"><span class="badge log fail-bg mr-2">Fail</span>User is able to try code in Queue page</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="309"><span class="badge log fail-bg mr-2">Fail</span>User is able to try code in Queue page</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given click on the list of "Implementation of Queue in Python,Implementation using collections.deque,Implementation using array,Queue Operations" from the excel sheet "Queue"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User clicks on try here button and enters code from the excel sheet row in the try editor page and clicks on Run</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then The code is executed and the output from the excel row is displayed on the page</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="316"><span class="badge log fail-bg mr-2">Fail</span>User is able to practice questions in Queue page</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="BEFORE">
+                <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.LinkedList.user_is_on_page_and_click_on_the_topic(java.lang.String,java.lang.String)">
+                <span>Given User is on "Queue" page and click on the "implementation-lists" topic</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.LinkedList.user_clicks_on_practice_questions_link_on_the_left_of_page(java.lang.String)">
+                <span>When User clicks on Practice Questions link on the left of "Queue" page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.LinkedList.practice_questions_page_is_displayed()">
+                <span>Then Practice Questions page is displayed</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="323"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Stack Page</p>
+            <p class="text-sm">
+              <span>12:16:14 PM</span> / <span>00:00:00:046</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Stack Page</h5>
+<span class='badge badge-success'>08.28.2023 12:16:14 PM</span>
+<span class='badge badge-danger'>08.28.2023 12:16:14 PM</span>
+<span class='badge badge-default'>00:00:00:046</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=323</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"> I want to use this template for my feature file</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="324"><span class="badge log fail-bg mr-2">Fail</span>User is able to navigate to Stack using dropdown option</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="325"><span class="badge log fail-bg mr-2">Fail</span>User is able to navigate to Stack using dropdown option</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User click on Stack from the dropdown</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Stack page is displayed</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And heaader Stack is displayed</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Verify topics covered is displayed with "Operations in Stack,Implementation,Applications" links</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="333"><span class="badge log fail-bg mr-2">Fail</span>User is able to navigate to Stack using Get Strated option</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="BEFORE">
+                <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Stack.user_click_on_get_started_button_for_stack()">
+                <span>When User click on Get Started button for Stack</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Stack.stack_page_is_displayed()">
+                <span>Then Stack page is displayed</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Stack.heaader_stack_is_displayed()">
+                <span>And heaader Stack is displayed</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="340"><span class="badge log fail-bg mr-2">Fail</span>User is able to try code in Stack page</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="341"><span class="badge log fail-bg mr-2">Fail</span>User is able to try code in Stack page</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given click on the list of "Operations in Stack,Implementation,Applications" from the excel sheet "Stack"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User clicks on try here button and enters code from the excel sheet row in the try editor page and clicks on Run</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then The code is executed and the output from the excel row is displayed on the page</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="348"><span class="badge log fail-bg mr-2">Fail</span>User is able to practice questions in Stack page</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="BEFORE">
+                <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.LinkedList.user_is_on_page_and_click_on_the_topic(java.lang.String,java.lang.String)">
+                <span>Given User is on "Stack" page and click on the "stack-applications" topic</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.LinkedList.user_clicks_on_practice_questions_link_on_the_left_of_page(java.lang.String)">
+                <span>When User clicks on Practice Questions link on the left of "Stack" page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.LinkedList.practice_questions_page_is_displayed()">
+                <span>Then Practice Questions page is displayed</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="355"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Tree Page</p>
+            <p class="text-sm">
+              <span>12:16:14 PM</span> / <span>00:00:00:053</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Tree Page</h5>
+<span class='badge badge-success'>08.28.2023 12:16:14 PM</span>
+<span class='badge badge-danger'>08.28.2023 12:16:14 PM</span>
+<span class='badge badge-default'>00:00:00:053</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=355</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"> I want to use this template for my feature file</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="356"><span class="badge log fail-bg mr-2">Fail</span>User is able to navigate to Tree using dropdown option</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="357"><span class="badge log fail-bg mr-2">Fail</span>User is able to navigate to Tree using dropdown option</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User click on Tree from the dropdown</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Tree page is displayed</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And heaader Tree is displayed</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Verify topics covered is displayed with "Overview of Trees,Terminologies,Types of Trees,Tree Traversals,Traversals-Illustration,Binary Trees,Types of Binary Trees,Implementation in Python,Binary Tree Traversals,Implementation of Binary Trees,Applications of Binary trees,Binary Search Trees,Implementation Of BST" links</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="365"><span class="badge log fail-bg mr-2">Fail</span>User is able to navigate to Tree using Get Strated option</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="BEFORE">
+                <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Tree.user_click_on_get_started_button_for_tree()">
+                <span>When User click on Get Started button for Tree</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Tree.tree_page_is_displayed()">
+                <span>Then Tree page is displayed</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.Tree.heaader_tree_is_displayed()">
+                <span>And heaader Tree is displayed</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="372"><span class="badge log fail-bg mr-2">Fail</span>User is able to try code in Tree page</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="373"><span class="badge log fail-bg mr-2">Fail</span>User is able to try code in Tree page</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given click on the list of "Overview of Trees,Terminologies,Types of Trees,Tree Traversals,Traversals-Illustration,Binary Trees,Types of Binary Trees,Implementation in Python,Binary Tree Traversals,Implementation of Binary Trees,Applications of Binary trees,Binary Search Trees,Implementation Of BST" from the excel sheet "Tree"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User clicks on try here button and enters code from the excel sheet row in the try editor page and clicks on Run</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then The code is executed and the output from the excel row is displayed on the page</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="380"><span class="badge log fail-bg mr-2">Fail</span>User is able to practice questions in Tree page</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="BEFORE">
+                <span>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.Error: Unresolved compilation problems: 
+	The import io.github cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+	WebDriverManager cannot be resolved
+
+	at utilities.DriverSetUp.<init>(DriverSetUp.java:15)
+	at utilities.DriverSetUp.setUpDriver(DriverSetUp.java:53)
+	at defenitions.Hooks.startUp(Hooks.java:40)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.LinkedList.user_is_on_page_and_click_on_the_topic(java.lang.String,java.lang.String)">
+                <span>Given User is on "Tree" page and click on the "Traversals-Illustration" topic</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.LinkedList.user_clicks_on_practice_questions_link_on_the_left_of_page(java.lang.String)">
+                <span>When User clicks on Practice Questions link on the left of "Tree" page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="defenitions.LinkedList.practice_questions_page_is_displayed()">
+                <span>Then Practice Questions page is displayed</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">java.lang.NullPointerException</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.NullPointerException</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='13'>defenitions.Register.beforeScenarioFailure()</a>
+<div class="">
+<span class="badge badge-default">Register User to dsportal app.User is not able to register into the dsportalapp.defenitions.Register.beforeScenarioFailure()</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='31' id='43'>defenitions.Register.beforeScenarioFailure()</a>
+<div class="">
+<span class="badge badge-default">Login feature validation.User enters invalid username.defenitions.Register.beforeScenarioFailure()</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>52</span>
+</span>
+<p class="name">java.lang.Error</p>
+<p class="duration text-sm">52 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.Error</h4>
+<span status="fail" class='badge log badge-danger'>52 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Register User to dsportal app.Successful registration.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='11'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Register User to dsportal app.User is not able to register into the dsportalapp.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='18'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Register User to dsportal app.Navigate to login page from Register page.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='25'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Register User to dsportal app.Signout validation.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='31' id='33'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Login feature validation.Register link validation from Sign in page.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='31' id='41'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Login feature validation.User enters invalid username.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='31' id='50'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Login feature validation.User enters invalid username from excel.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='58'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Home Page feature validation.Home Page URL.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='65'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Home Page feature validation.Content in Home Page.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='72'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Home Page feature validation.Content in Home Page dropdown.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='79'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Home Page feature validation.Drop down selection without login.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='85'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Home Page feature validation.Drop down selection without login.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='91'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Home Page feature validation.Drop down selection without login.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='97'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Home Page feature validation.Drop down selection without login.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='103'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Home Page feature validation.Drop down selection without login.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='109'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Home Page feature validation.Drop down selection without login.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='116'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Home Page feature validation.Get started button clicked without login.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='122'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Home Page feature validation.Get started button clicked without login.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='128'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Home Page feature validation.Get started button clicked without login.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='134'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Home Page feature validation.Get started button clicked without login.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='140'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Home Page feature validation.Get started button clicked without login.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='146'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Home Page feature validation.Get started button clicked without login.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='152'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Home Page feature validation.Get started button clicked without login.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='158'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Home Page feature validation.Register Page Navigation.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='164'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Home Page feature validation.Sign in Page Navigation.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='170' id='173'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Array Page.User is able to navigate to Array using dropdown option.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='170' id='181'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Array Page.User is able to navigate to Array using Get Strated option.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='170' id='189'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Array Page.User is able to try code in Array page.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='170' id='196'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Array Page.User is able to practice questions in Array page.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='202' id='205'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Linked List Page.User is able to navigate to Datastructure using Get Strated option.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='202' id='214'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Linked List Page.User is able to try code in Datastructure page.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='202' id='221'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Linked List Page.User is able to practice questions in Linked list page.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='227' id='230'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Graph Page.User is able to navigate to Graph using dropdown option.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='227' id='238'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Graph Page.User is able to navigate to Graph using Get Strated option.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='227' id='246'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Graph Page.User is able to try code in Graph page.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='227' id='253'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Graph Page.User is able to practice questions in Graph page.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='259' id='262'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Linked List Page.User is able to navigate to Linked List using dropdown option.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='259' id='270'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Linked List Page.User is able to navigate to Linked List using Get Strated option.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='259' id='278'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Linked List Page.User is able to try code in Linked list page.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='259' id='285'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Linked List Page.User is able to practice questions in Linked list page.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='291' id='294'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Queue Page.User is able to navigate to Queue using dropdown option.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='291' id='302'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Queue Page.User is able to navigate to Queue using Get Strated option.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='291' id='310'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Queue Page.User is able to try code in Queue page.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='291' id='317'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Queue Page.User is able to practice questions in Queue page.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='323' id='326'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Stack Page.User is able to navigate to Stack using dropdown option.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='323' id='334'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Stack Page.User is able to navigate to Stack using Get Strated option.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='323' id='342'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Stack Page.User is able to try code in Stack page.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='323' id='349'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Stack Page.User is able to practice questions in Stack page.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='355' id='358'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Tree Page.User is able to navigate to Tree using dropdown option.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='355' id='366'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Tree Page.User is able to navigate to Tree using Get Strated option.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='355' id='374'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Tree Page.User is able to try code in Tree page.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='355' id='381'>defenitions.Hooks.startUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Tree Page.User is able to practice questions in Tree page.defenitions.Hooks.startUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">16</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>4</span>
+</span>
+<p class="name">@linkedList</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@linkedList</h4>
+<span status="fail" class='badge log badge-danger'>4 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='259' id='261'>User is able to navigate to Linked List using dropdown option</a>
+<div class="">
+<span class="badge badge-default">Linked List Page.User is able to navigate to Linked List using dropdown option</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='259' id='269'>User is able to navigate to Linked List using Get Strated option</a>
+<div class="">
+<span class="badge badge-default">Linked List Page.User is able to navigate to Linked List using Get Strated option</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='259' id='277'>User is able to try code in Linked list page</a>
+<div class="">
+<span class="badge badge-default">Linked List Page.User is able to try code in Linked list page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='259' id='284'>User is able to practice questions in Linked list page</a>
+<div class="">
+<span class="badge badge-default">Linked List Page.User is able to practice questions in Linked list page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@failure</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@failure</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='10'>User is not able to register into the dsportalapp</a>
+<div class="">
+<span class="badge badge-default">Register User to dsportal app.User is not able to register into the dsportalapp</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='31' id='40'>User enters invalid username</a>
+<div class="">
+<span class="badge badge-default">Login feature validation.User enters invalid username</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>7</span>
+</span>
+<p class="name">@practiceQuestionsValidation</p>
+<p class="duration text-sm">7 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@practiceQuestionsValidation</h4>
+<span status="fail" class='badge log badge-danger'>7 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='170' id='195'>User is able to practice questions in Array page</a>
+<div class="">
+<span class="badge badge-default">Array Page.User is able to practice questions in Array page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='202' id='220'>User is able to practice questions in Linked list page</a>
+<div class="">
+<span class="badge badge-default">Linked List Page.User is able to practice questions in Linked list page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='227' id='252'>User is able to practice questions in Graph page</a>
+<div class="">
+<span class="badge badge-default">Graph Page.User is able to practice questions in Graph page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='259' id='284'>User is able to practice questions in Linked list page</a>
+<div class="">
+<span class="badge badge-default">Linked List Page.User is able to practice questions in Linked list page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='291' id='316'>User is able to practice questions in Queue page</a>
+<div class="">
+<span class="badge badge-default">Queue Page.User is able to practice questions in Queue page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='323' id='348'>User is able to practice questions in Stack page</a>
+<div class="">
+<span class="badge badge-default">Stack Page.User is able to practice questions in Stack page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='355' id='380'>User is able to practice questions in Tree page</a>
+<div class="">
+<span class="badge badge-default">Tree Page.User is able to practice questions in Tree page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@success</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@success</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Successful registration</a>
+<div class="">
+<span class="badge badge-default">Register User to dsportal app.Successful registration</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='31' id='32'>Register link validation from Sign in page</a>
+<div class="">
+<span class="badge badge-default">Login feature validation.Register link validation from Sign in page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>18</span>
+</span>
+<p class="name">@home</p>
+<p class="duration text-sm">18 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@home</h4>
+<span status="fail" class='badge log badge-danger'>18 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='57'>Home Page URL</a>
+<div class="">
+<span class="badge badge-default">Home Page feature validation.Home Page URL</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='64'>Content in Home Page</a>
+<div class="">
+<span class="badge badge-default">Home Page feature validation.Content in Home Page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='71'>Content in Home Page dropdown</a>
+<div class="">
+<span class="badge badge-default">Home Page feature validation.Content in Home Page dropdown</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='78'>Drop down selection without login</a>
+<div class="">
+<span class="badge badge-default">Home Page feature validation.Drop down selection without login</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='84'>Drop down selection without login</a>
+<div class="">
+<span class="badge badge-default">Home Page feature validation.Drop down selection without login</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='90'>Drop down selection without login</a>
+<div class="">
+<span class="badge badge-default">Home Page feature validation.Drop down selection without login</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='96'>Drop down selection without login</a>
+<div class="">
+<span class="badge badge-default">Home Page feature validation.Drop down selection without login</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='102'>Drop down selection without login</a>
+<div class="">
+<span class="badge badge-default">Home Page feature validation.Drop down selection without login</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='108'>Drop down selection without login</a>
+<div class="">
+<span class="badge badge-default">Home Page feature validation.Drop down selection without login</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='115'>Get started button clicked without login</a>
+<div class="">
+<span class="badge badge-default">Home Page feature validation.Get started button clicked without login</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='121'>Get started button clicked without login</a>
+<div class="">
+<span class="badge badge-default">Home Page feature validation.Get started button clicked without login</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='127'>Get started button clicked without login</a>
+<div class="">
+<span class="badge badge-default">Home Page feature validation.Get started button clicked without login</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='133'>Get started button clicked without login</a>
+<div class="">
+<span class="badge badge-default">Home Page feature validation.Get started button clicked without login</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='139'>Get started button clicked without login</a>
+<div class="">
+<span class="badge badge-default">Home Page feature validation.Get started button clicked without login</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='145'>Get started button clicked without login</a>
+<div class="">
+<span class="badge badge-default">Home Page feature validation.Get started button clicked without login</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='151'>Get started button clicked without login</a>
+<div class="">
+<span class="badge badge-default">Home Page feature validation.Get started button clicked without login</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='157'>Register Page Navigation</a>
+<div class="">
+<span class="badge badge-default">Home Page feature validation.Register Page Navigation</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='163'>Sign in Page Navigation</a>
+<div class="">
+<span class="badge badge-default">Home Page feature validation.Sign in Page Navigation</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>4</span>
+</span>
+<p class="name">@register</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@register</h4>
+<span status="fail" class='badge log badge-danger'>4 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Successful registration</a>
+<div class="">
+<span class="badge badge-default">Register User to dsportal app.Successful registration</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='10'>User is not able to register into the dsportalapp</a>
+<div class="">
+<span class="badge badge-default">Register User to dsportal app.User is not able to register into the dsportalapp</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='17'>Navigate to login page from Register page</a>
+<div class="">
+<span class="badge badge-default">Register User to dsportal app.Navigate to login page from Register page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='24'>Signout validation</a>
+<div class="">
+<span class="badge badge-default">Register User to dsportal app.Signout validation</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>3</span>
+</span>
+<p class="name">@login</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@login</h4>
+<span status="fail" class='badge log badge-danger'>3 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='31' id='32'>Register link validation from Sign in page</a>
+<div class="">
+<span class="badge badge-default">Login feature validation.Register link validation from Sign in page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='31' id='40'>User enters invalid username</a>
+<div class="">
+<span class="badge badge-default">Login feature validation.User enters invalid username</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='31' id='49'>User enters invalid username from excel</a>
+<div class="">
+<span class="badge badge-default">Login feature validation.User enters invalid username from excel</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>4</span>
+</span>
+<p class="name">@array</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@array</h4>
+<span status="fail" class='badge log badge-danger'>4 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='170' id='172'>User is able to navigate to Array using dropdown option</a>
+<div class="">
+<span class="badge badge-default">Array Page.User is able to navigate to Array using dropdown option</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='170' id='180'>User is able to navigate to Array using Get Strated option</a>
+<div class="">
+<span class="badge badge-default">Array Page.User is able to navigate to Array using Get Strated option</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='170' id='188'>User is able to try code in Array page</a>
+<div class="">
+<span class="badge badge-default">Array Page.User is able to try code in Array page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='170' id='195'>User is able to practice questions in Array page</a>
+<div class="">
+<span class="badge badge-default">Array Page.User is able to practice questions in Array page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>4</span>
+</span>
+<p class="name">@graph</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@graph</h4>
+<span status="fail" class='badge log badge-danger'>4 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='227' id='229'>User is able to navigate to Graph using dropdown option</a>
+<div class="">
+<span class="badge badge-default">Graph Page.User is able to navigate to Graph using dropdown option</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='227' id='237'>User is able to navigate to Graph using Get Strated option</a>
+<div class="">
+<span class="badge badge-default">Graph Page.User is able to navigate to Graph using Get Strated option</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='227' id='245'>User is able to try code in Graph page</a>
+<div class="">
+<span class="badge badge-default">Graph Page.User is able to try code in Graph page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='227' id='252'>User is able to practice questions in Graph page</a>
+<div class="">
+<span class="badge badge-default">Graph Page.User is able to practice questions in Graph page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>4</span>
+</span>
+<p class="name">@queue</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@queue</h4>
+<span status="fail" class='badge log badge-danger'>4 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='291' id='293'>User is able to navigate to Queue using dropdown option</a>
+<div class="">
+<span class="badge badge-default">Queue Page.User is able to navigate to Queue using dropdown option</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='291' id='301'>User is able to navigate to Queue using Get Strated option</a>
+<div class="">
+<span class="badge badge-default">Queue Page.User is able to navigate to Queue using Get Strated option</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='291' id='309'>User is able to try code in Queue page</a>
+<div class="">
+<span class="badge badge-default">Queue Page.User is able to try code in Queue page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='291' id='316'>User is able to practice questions in Queue page</a>
+<div class="">
+<span class="badge badge-default">Queue Page.User is able to practice questions in Queue page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>7</span>
+</span>
+<p class="name">@pythoncodeValidation</p>
+<p class="duration text-sm">7 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@pythoncodeValidation</h4>
+<span status="fail" class='badge log badge-danger'>7 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='170' id='188'>User is able to try code in Array page</a>
+<div class="">
+<span class="badge badge-default">Array Page.User is able to try code in Array page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='202' id='213'>User is able to try code in Datastructure page</a>
+<div class="">
+<span class="badge badge-default">Linked List Page.User is able to try code in Datastructure page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='227' id='245'>User is able to try code in Graph page</a>
+<div class="">
+<span class="badge badge-default">Graph Page.User is able to try code in Graph page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='259' id='277'>User is able to try code in Linked list page</a>
+<div class="">
+<span class="badge badge-default">Linked List Page.User is able to try code in Linked list page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='291' id='309'>User is able to try code in Queue page</a>
+<div class="">
+<span class="badge badge-default">Queue Page.User is able to try code in Queue page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='323' id='341'>User is able to try code in Stack page</a>
+<div class="">
+<span class="badge badge-default">Stack Page.User is able to try code in Stack page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='355' id='373'>User is able to try code in Tree page</a>
+<div class="">
+<span class="badge badge-default">Tree Page.User is able to try code in Tree page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>3</span>
+</span>
+<p class="name">@ds</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@ds</h4>
+<span status="fail" class='badge log badge-danger'>3 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='202' id='204'>User is able to navigate to Datastructure using Get Strated option</a>
+<div class="">
+<span class="badge badge-default">Linked List Page.User is able to navigate to Datastructure using Get Strated option</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='202' id='213'>User is able to try code in Datastructure page</a>
+<div class="">
+<span class="badge badge-default">Linked List Page.User is able to try code in Datastructure page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='202' id='220'>User is able to practice questions in Linked list page</a>
+<div class="">
+<span class="badge badge-default">Linked List Page.User is able to practice questions in Linked list page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>4</span>
+</span>
+<p class="name">@stack</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@stack</h4>
+<span status="fail" class='badge log badge-danger'>4 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='323' id='325'>User is able to navigate to Stack using dropdown option</a>
+<div class="">
+<span class="badge badge-default">Stack Page.User is able to navigate to Stack using dropdown option</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='323' id='333'>User is able to navigate to Stack using Get Strated option</a>
+<div class="">
+<span class="badge badge-default">Stack Page.User is able to navigate to Stack using Get Strated option</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='323' id='341'>User is able to try code in Stack page</a>
+<div class="">
+<span class="badge badge-default">Stack Page.User is able to try code in Stack page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='323' id='348'>User is able to practice questions in Stack page</a>
+<div class="">
+<span class="badge badge-default">Stack Page.User is able to practice questions in Stack page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>4</span>
+</span>
+<p class="name">@tree</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tree</h4>
+<span status="fail" class='badge log badge-danger'>4 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='355' id='357'>User is able to navigate to Tree using dropdown option</a>
+<div class="">
+<span class="badge badge-default">Tree Page.User is able to navigate to Tree using dropdown option</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='355' id='365'>User is able to navigate to Tree using Get Strated option</a>
+<div class="">
+<span class="badge badge-default">Tree Page.User is able to navigate to Tree using Get Strated option</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='355' id='373'>User is able to try code in Tree page</a>
+<div class="">
+<span class="badge badge-default">Tree Page.User is able to try code in Tree page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='355' id='380'>User is able to practice questions in Tree page</a>
+<div class="">
+<span class="badge badge-default">Tree Page.User is able to practice questions in Tree page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@navigation</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@navigation</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='17'>Navigate to login page from Register page</a>
+<div class="">
+<span class="badge badge-default">Register User to dsportal app.Navigate to login page from Register page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='24'>Signout validation</a>
+<div class="">
+<span class="badge badge-default">Register User to dsportal app.Signout validation</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>13</span>
+</span>
+<p class="name">@pageLaunch</p>
+<p class="duration text-sm">13 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@pageLaunch</h4>
+<span status="fail" class='badge log badge-danger'>13 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='170' id='172'>User is able to navigate to Array using dropdown option</a>
+<div class="">
+<span class="badge badge-default">Array Page.User is able to navigate to Array using dropdown option</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='170' id='180'>User is able to navigate to Array using Get Strated option</a>
+<div class="">
+<span class="badge badge-default">Array Page.User is able to navigate to Array using Get Strated option</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='202' id='204'>User is able to navigate to Datastructure using Get Strated option</a>
+<div class="">
+<span class="badge badge-default">Linked List Page.User is able to navigate to Datastructure using Get Strated option</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='227' id='229'>User is able to navigate to Graph using dropdown option</a>
+<div class="">
+<span class="badge badge-default">Graph Page.User is able to navigate to Graph using dropdown option</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='227' id='237'>User is able to navigate to Graph using Get Strated option</a>
+<div class="">
+<span class="badge badge-default">Graph Page.User is able to navigate to Graph using Get Strated option</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='259' id='261'>User is able to navigate to Linked List using dropdown option</a>
+<div class="">
+<span class="badge badge-default">Linked List Page.User is able to navigate to Linked List using dropdown option</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='259' id='269'>User is able to navigate to Linked List using Get Strated option</a>
+<div class="">
+<span class="badge badge-default">Linked List Page.User is able to navigate to Linked List using Get Strated option</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='291' id='293'>User is able to navigate to Queue using dropdown option</a>
+<div class="">
+<span class="badge badge-default">Queue Page.User is able to navigate to Queue using dropdown option</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='291' id='301'>User is able to navigate to Queue using Get Strated option</a>
+<div class="">
+<span class="badge badge-default">Queue Page.User is able to navigate to Queue using Get Strated option</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='323' id='325'>User is able to navigate to Stack using dropdown option</a>
+<div class="">
+<span class="badge badge-default">Stack Page.User is able to navigate to Stack using dropdown option</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='323' id='333'>User is able to navigate to Stack using Get Strated option</a>
+<div class="">
+<span class="badge badge-default">Stack Page.User is able to navigate to Stack using Get Strated option</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='355' id='357'>User is able to navigate to Tree using dropdown option</a>
+<div class="">
+<span class="badge badge-default">Tree Page.User is able to navigate to Tree using dropdown option</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:16:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='355' id='365'>User is able to navigate to Tree using Get Strated option</a>
+<div class="">
+<span class="badge badge-default">Tree Page.User is able to navigate to Tree using Get Strated option</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Aug 28, 2023 12:16:12 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Aug 28, 2023 12:16:14 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>10</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>10</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'><b>0</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='100%'><b>52</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'><b>0</b> steps passed</small></div>
+<div>
+<small data-tooltip='26%'><b>54</b> steps failed,
+<b>148</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Register User to dsportal app":0.233,"Login feature validation":0.067,"Home Page feature validation":0.35,"Array Page":0.053,"Linked List Page":0.042,"Graph Page":0.05,"Linked List Page":0.043,"Queue Page":0.067,"Stack Page":0.046,"Tree Page":0.053
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@linkedList</td>
+<td>0</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@failure</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@practiceQuestionsValidation</td>
+<td>0</td>
+<td>7</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@success</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@home</td>
+<td>0</td>
+<td>18</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@register</td>
+<td>0</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@login</td>
+<td>0</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@array</td>
+<td>0</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@graph</td>
+<td>0</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@queue</td>
+<td>0</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@pythoncodeValidation</td>
+<td>0</td>
+<td>7</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@ds</td>
+<td>0</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@stack</td>
+<td>0</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@tree</td>
+<td>0</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@navigation</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@pageLaunch</td>
+<td>0</td>
+<td>13</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 10,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 52,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 54,
+warningGrandChild: 0,
+skipGrandChild: 148,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
